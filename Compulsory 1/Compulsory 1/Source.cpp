@@ -29,9 +29,9 @@ int f(int x)
 int main()
 {
 	int x, i = 0;
-	cout << "Number : ";
+	cout << "Number: ";
 	cin >> x;
-	cout << "\nFibonnaci : ";
+	cout << "Fibonnaci: ";
 	while (i < x) 
 	{
 		cout << " " << f(i);
