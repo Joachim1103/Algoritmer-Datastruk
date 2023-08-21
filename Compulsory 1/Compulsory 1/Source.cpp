@@ -32,10 +32,20 @@ int main()
 	cout << "Number: ";
 	cin >> x;
 	cout << "Fibonnaci: ";
-	while (i < x) 
+	while (i < x)
 	{
 		cout << " " << f(i);
 		i++;
 	}
 	return 0;
+
+	/*cout << "Number: ";
+	cin >> x;
+
+	cout << "Factorial of " << x << " is " << f(x);
+	return 0;*/
+
+
+
+	
 }
