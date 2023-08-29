@@ -1,20 +1,33 @@
 #include <iostream>
 
-//using namespace std;
+//using namespace std; // Factorial
 //
-//int fact(int n) {
-//	if ((n == 0) || (n == 1))
+//int f(int x) 
+//{
+//	if ((x == 0) || (x == 1)) 
+//	{
 //		return 1;
+//	}
+//		
 //	else
-//		return n * fact(n - 1);
+//	{
+//		return x * f(x - 1);
+//	}
 //}
-//int main() {
-//	int n = 5;
-//	cout << "Factorial of " << n << " is " << fact(n);
+//int main() 
+//{
+//	int x;
+//
+//	cout << "Number: ";
+//	cin >> x;
+//
+//	cout << "Factorial of " << x << " is " << f(x);
 //	return 0;
 //}
 
-using namespace std;
+////////////////////////////////////////////////////////////
+
+using namespace std; // Fibonnaci
 int f(int x)
 {
 	if ((x == 1) || (x == 0)) 
@@ -26,26 +39,13 @@ int f(int x)
 		return(f(x - 1) + f(x - 2));
 	}
 }
-int main()
+int main() 
 {
-	int x, i = 0;
+	int x; 
+
 	cout << "Number: ";
 	cin >> x;
-	cout << "Fibonnaci: ";
-	while (i < x)
-	{
-		cout << " " << f(i);
-		i++;
-	}
+
+	cout << "Fibonnaci: " << x << " is " << f(x);
 	return 0;
-
-	/*cout << "Number: ";
-	cin >> x;
-
-	cout << "Factorial of " << x << " is " << f(x);
-	return 0;*/
-
-
-
-	
 }

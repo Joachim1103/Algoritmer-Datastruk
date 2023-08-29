@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Programming\Algoritmer-Datastruk\Session 2\Session 2\FileName.cpp(29,10): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Programming\Algoritmer-Datastruk\Session 2\Session 2\FileName.cpp(36,10): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Programming\Algoritmer-Datastruk\Session 2\Session 2\FileName.cpp(24,12): fatal  error C1075: '{': no matching token found
